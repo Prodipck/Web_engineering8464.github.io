@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+body{
+    
+    
+}
+.wrapper_full{
+    width: 100%;
+}
+.wrapper{
+    width: 960px;
+    margin: 0 auto;
+}
+.clr{
+    clear: both;
+}
+@font-face{
+    font-family:OpenSans-Regular.ttf;
+    src: url(../fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+
+.ft_menu1 ul li a,
+p{
+    font-family:OpenSans-Regular;
+    color: #fff;
+    font-size: 13px;
+    line-height: 1.6;
+}
+h1{
+    color: #ffffff;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+h2{
+    color: #ffffff;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+h4,
+h3{
+    color: #353535;
+    font-family: Oswald-Medium;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+h4{
+    font-size: 16px;
+}
+.pt_60{
+    padding-top: 60px;
+}
+.pb_60{
+    padding-bottom: 60px;
+}
+.py_60{
+    padding: 60px 0px;
+}
+
+/* menu_part start */
+.menu_part{
+ background: #0d9eb9;
+}
+.logo{
+    width: 140px;
+    margin: 0px 10px;
+    float: left;
+}
+.logo h3{
+    padding: 20px 0px;
+}
+.menu{
+    width: 780px;
+    margin: 0px 10px;
+    float: left;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    display: block;
+    padding: 35px 7.5px;
+    font-size: 20px;
+    color: #000;
+    text-transform: capitalize;
+}
+.menu ul li:hover a{
+    color: #f20808;
+}
+.menu ul li:last-child a{
+    padding-right: 0px;
+}
+/* menu_part end */
+
+
+/*banner_part start*/
+.banner_part{
+    background: url(../images/ban.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.overlay_banner{
+    background: rgba(0, 0, 0, 0.69);
+    padding: 85px 0px;
+}
+.banner_content{
+    width: 440px;
+    float: right;
+    margin: 0 10px;
+    text-align: right;
+}
+.banner_content h1{
+    padding-bottom: 20px;
+}
+.banner_content a{
+    margin-left: 15px;
+}
+/*bannera_part end*/
+
+/*common_part start*/
+.common_heading{
+    text-align: center;
+    padding-bottom: 35px;
+}
+/*common_part end*/
+/*about_part start*/
+.about_part{
+    
+}
+.about_main{}
+.about_content,
+.about_img{
+    width: 380px;
+    margin: 0px 10px;
+    float: left;
+}
+.about_content{
+    width: 540px;
+}
+.about_content p{
+    color: #555555;
+    padding-top: 40px;
+    font-size: 24px;
+}
+.about_content p:last-child{
+    padding-top: 30px;
+}
+/*about_part end*/
+
+/*qulifation_part_start*/
+.qulifition_part{
+    padding: 60px 0px;
+    background: #4d4ded;
+}
+.quli_header h3{
+    text-align: center;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.tab{
+    width: 100%;
+    text-align: center;
+}
+.tab th{
+    
+    font-size: 20px;
+}
+.tab th td{
+   font-size: 40px; 
+}
+/*qulifation_part_end*/
+
+/*contact_part_end*/
+.contact_part{
+    padding: 60px 0px;
+    background: #79abef;
+}
+.contact{
+    text-align: center;
+    width: 100%;
+    padding-bottom: 15px;
+}
+.contact h3{
+    color: #fff;
+}
+.contact_text{
+    text-align: center;
+}
+.contact_text p{
+    color: #fff;
+    font-size: 30px;
+}
+/*contact_part_end*/
+
+.copy_right{
+   background: #555555;
+    padding: 16px 0px;
+}
+.wrapper a p{
+    text-align: center;
+}
+/*copy_right_part end*/
+
+
