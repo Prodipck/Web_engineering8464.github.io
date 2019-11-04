@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Currency Convert</title>
+		<style> 
+            body{
+                margin-left:20%;
+                padding-left:5%;
+                padding-bottom: 5%;
+                border:solid #000f80 4px; 
+                width:50%;
+                padding-top:3%;
+                height: 95%;
+            }
+        </style>
+	</head>
+	<body onload="fortune()">
+	
+		<h2> Fortune Generator</h2>
+		<p id="fortune"></p>
+		<h2> Currency Converter</h2>
+		
+		<form>
+			<input type="text" name="amount1" placeholder="Enter Amount..."/>
+			<select id="currency">
+				<option value="tk">TK</option>
+				<option value="dollar">Dollar</option>
+				<option value="euro">Euro</option>
+				<option value="pound">Pound</option>
+			</select>
+			<br>
+			<input type="text" name="amount2" placeholder="Enter Amount..."/>
+			<select id="currency1">
+				<option value="tk">TK</option>
+				<option value="dollar">Dollar</option>
+				<option value="euro">Euro</option>
+				<option value="pound">Pound</option>
+			</select>
+			<br>
+			<input type="button" value="Convert" onclick="convert()" />
+			<br><br>
+			<b><p id="eq"></p></b> 
+			<p id="dollar"></p>
+			<p id="euro"></p>
+			<p id="pound"></p>
+		</form>
+		
+		
+		<h2>Quiz Question</h2>
+		<form action="/action_page.php">
+			<p>1.What is the capital of bangladesh</p>
+			  <input type="radio" name="1" value="a">A. DHAKA<br>
+			  <input type="radio" name="1" value="b">B. KHULNA<br>
+			  <input type="radio" name="1" value="c">C. SYLLET<br>  
+			<p id="ans1" style="color:rad"></p>
+			<p>2.What is the name of the currency of bangladesh</p>
+			  <input type="radio" name="2" value="a"> A. DOLLER<br>
+			  <input type="radio" name="2" value="b"> B. TK<br>
+			  <input type="radio" name="2" value="c"> C. EURO<br>  
+			  <p id="ans2" style="color:rad"></p>
+			<p>3.Champion of Football worlcup 2018   </p>
+				 <input type="radio" name="3" value="a">A. Brazil<br>
+				 <input type="radio" name="3" value="b">B. France<br>
+				 <input type="radio" name="3" value="c">C. Argentina<br>  
+				<p id="ans3" style="color:rad"></p>
+			<p>4.Champion of Cricket worlcup 2019 </p>
+				<input type="radio" name="4" value="a"> A. India<br>
+				<input type="radio" name="4" value="b"> B. Newziland<br>
+				<input type="radio" name="4" value="c"> C.England<br>  
+				<p id="ans4" style="color:rad"></p>
+			<p>5. Nobel Prize awarded started in ?</p>
+				 <input type="radio" name="5" value="a">A. 1902<br>
+				 <input type="radio" name="5" value="b">B. 1904<br>
+				 <input type="radio" name="5" value="c">C. 1901<br>  
+				<p id="ans5" style="color:rad"></p>
+			<h3 style="color:#1129dd" id="result"></h3>
+			  <input type="button" value="Submit"  onclick="Question()" />
+		</form>
+		
+		
+		<script src="js/custm.js" ></script>
+	</body>
+</html>
